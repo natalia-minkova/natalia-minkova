@@ -20,7 +20,7 @@ and changes to code, config or environment.
   *(synthetic, software-only)* → [case study](https://cyberkimura.com/case-study/)
 - **Drone command-link security** — an unsigned ground-station command was accepted,
   then rejected after enabling MAVLink2 signing; includes a trust-boundary finding.
-  *(ArduPilot SITL)* → [case study](https://cyberkimura.com/…)
+  *(ArduPilot SITL)* → [website](https://cyberkimura.com)
 - **Production AI-agent assessment** — high-severity authority flaw found in a client
   engagement. *(details under NDA)*
 
