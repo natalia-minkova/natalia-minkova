@@ -6,8 +6,8 @@ I test who can command a system, which actions they can authorize, and whether t
 
 **[Read the A02 case study](https://cyberkimura.com/case-study/) · [Run the public lab](https://github.com/natalia-minkova/authority-replay-lab) · [Contact me](mailto:security@cyberkimura.com)**
 
-> A claim isn't proof. Every finding ships with the version, parameters, logs,
-> and a result you can re-run.
+> A claim isn't proof. Review the test conditions, observed results and limits;
+> run the public lab to check its assertions yourself.
 
 ---
 
@@ -20,9 +20,7 @@ I test who can command a system, which actions they can authorize, and whether t
   *(synthetic, software-only)* → [case study](https://cyberkimura.com/case-study/)
 - **Drone command-link security** — an unsigned ground-station command was accepted,
   then rejected after enabling MAVLink2 signing; includes a trust-boundary finding.
-  *(ArduPilot SITL)* → [website](https://cyberkimura.com)
-- **Production AI-agent assessment** — high-severity authority flaw found in a client
-  engagement. *(details under NDA)*
+  *(ArduPilot SITL; dedicated report and reproduction package not yet published.)*
 
 ### Public code — start here
 
@@ -37,7 +35,7 @@ Authority · link-loss & reconnect · persistence after change · result vs clai
 reproducible proof. One approach across agents, drones and robots.
 
 ### Stack
-Python · ArduPilot / MAVLink · RTL-SDR · pytest · signed reproducible evidence
+Python · ArduPilot / MAVLink · RTL-SDR · pytest · reproducible test harnesses
 
 ---
 
