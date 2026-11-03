@@ -4,7 +4,7 @@
 
 I test who can command a system, which actions they can authorize, and whether those limits hold after replay, reconnects and software changes.
 
-**[Read the A02 case study](https://cyberkimura.com/case-study/) · [Run the public lab](https://github.com/natalia-minkova/authority-replay-lab) · [Contact me](mailto:security@cyberkimura.com)**
+**[Authority After Change](https://cyberkimura.com/authority-after-change/) · [Read the A02 case study](https://cyberkimura.com/case-study/) · [Run the public lab](https://github.com/natalia-minkova/authority-replay-lab) · [Contact me](mailto:security@cyberkimura.com)**
 
 > A claim isn't proof. Review the test conditions, observed results and limits;
 > run the public lab to check its assertions yourself.
@@ -15,6 +15,8 @@ I test who can command a system, which actions they can authorize, and whether t
 `authority & command security` · `AI / LLM agents` · `drone / UAS command links` · `robot actuators` · `red team`
 
 ### Selected work
+- **Authority After Change** — an unused permission is rejected after a synthetic configuration change and new activation; fresh authority still works. Removing one binding guard makes all seven AAC tests fail on assertions. A fresh-venv rerun of the supplied source archive passed the selected 148-test suite (47 subtests).
+  *(synthetic, software-only; no physical validation or version attestation; public evidence summary, not a source release)* → [case study & evidence](https://cyberkimura.com/authority-after-change/)
 - **Authority Replay (A02)** — a consumed authorization cannot be replayed; enforcement
   confirmed by mutation testing, evidence reproduced from a clean environment.
   *(synthetic, software-only)* → [case study](https://cyberkimura.com/case-study/)
