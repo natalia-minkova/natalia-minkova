@@ -24,6 +24,14 @@ and changes to code, config or environment.
 - **Production AI-agent assessment** — high-severity authority flaw found in a client
   engagement. *(details under NDA)*
 
+### Public code — start here
+
+**[Authority Replay Lab](https://github.com/natalia-minkova/authority-replay-lab)** — a standalone Python/SQLite example with 11 tests, concurrent replay checks, transaction rollback and a targeted mutation check. No dependencies beyond the Python standard library.
+
+Run it locally: `python3 -m unittest -v` and `python3 check_mutation.py`.
+
+This educational lab illustrates the single-use-authority principle; it is not the A02 source release or a reproduction of its historical results. Proprietary assessment tooling, fuzzing strategies and client artifacts remain private.
+
 ### Method — Authority Continuity Assessment
 Authority · link-loss & reconnect · persistence after change · result vs claim ·
 reproducible proof. One approach across agents, drones and robots.
