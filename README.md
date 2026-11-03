@@ -1,10 +1,10 @@
 # Natalia Minkova — Cyber Kimura
 
-**Offensive security for systems that take real-world actions — AI agents, drones, robots.**
+**Authority security for autonomous systems — AI agents, drones & robots.**
 
-I test the one thing most teams never verify: whether a system actually enforces
-*who is allowed to command it* — and whether that holds after link loss, reconnects,
-and changes to code, config or environment.
+I test who can command a system, which actions they can authorize, and whether those limits hold after replay, reconnects and software changes.
+
+**[Read the A02 case study](https://cyberkimura.com/case-study/) · [Run the public lab](https://github.com/natalia-minkova/authority-replay-lab) · [Contact me](mailto:security@cyberkimura.com)**
 
 > A claim isn't proof. Every finding ships with the version, parameters, logs,
 > and a result you can re-run.
